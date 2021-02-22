@@ -1,1 +1,1 @@
-# factorio.zone-custom-style
+A css file containing custon styling for factorio.zone
