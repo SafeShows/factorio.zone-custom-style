@@ -16,6 +16,8 @@ body {
     box-shadow: inset 3px 0px 3px -3px #201815, inset 2px 0px 2px -2px #201815, inset 1px 0px 1px -1px #201815, inset 0px 3px 3px -3px #8f8c8b, inset 0px 2px 2px -2px #8f8c8b, inset 0px 1px 1px -1px #8f8c8b, inset -3px 0px 3px -3px #201815, inset -2px 0px 2px -2px #201815, inset -2px 0px 1px -1px #201815, inset 0px -3px 3px -3px #000000, inset 0px -2px 2px -2px #000000, inset 0px -1px 1px -1px #000000, 0px 0px 2px 0px #201815, 0px 0px 4px 0px #201815;
     margin: 20px;
     margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 .output-container {
     background-color: #313031;
@@ -23,7 +25,8 @@ body {
     padding: 20px;
     margin: 20px;
     margin-left: 0;
-    height: 900px;
+    margin-right: 0;
+    margin-bottom: 0;
     overflow-y: visible
 }
 
@@ -33,6 +36,9 @@ body {
     padding: 20px;
     margin: 20px;
     margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    min-width: calc(100vw - 88px);
 }
 .info .token-control {
     box-shadow: inset 0px 0px 3px 0px #000000, 0px -2px 2px -1px #000000, -2px 0px 2px -2px #28221f, -2px 0px 2px -2px #28221f, 2px 0px 2px -2px #28221f, 2px 0px 2px -2px #28221f, 0px 3px 3px -3px #8f8c8b, 0px 2px 2px -2px #8f8c8b, 0px 1px 1px -1px #8f8c8b;
@@ -157,6 +163,7 @@ a {
     padding: 20px;
     margin: 20px;
     margin-left: 0;
+    margin-right: 0;
 }
 #input-area {
     color: #000;
@@ -170,7 +177,7 @@ a {
     padding: 6px;
     border: none;
     box-shadow: inset 0px 4px 1px -2px #000, inset 0px -4px 1px -2px #c5c5c5, inset 2px 0px 1px 0px #5f5f5f, inset -2px 0px 1px 0px #5f5f5f, inset 0px -2px 2px 0px #5f5f5f, 0px 0px 4px 1px #2e2521;
-    max-width: 99%
+    width: 1836px
 }
 #input-area:focus {
     outline: none;
